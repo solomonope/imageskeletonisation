@@ -2,11 +2,10 @@ imageskeletonisation
 ====================
 ALGORITHM 
 P5  P4  P3
-P6	P1 P2
+P6  P1 P2
+P7   P8 P9		 
 
-P7	P8	P9		 
-
-              Figure 1, Pixel Connection 
+             
 A binary image is scanned from top to bottom and also from left to right during each scanning pass.  A pixel, P1, is deleted if four relationships with its 8-connected neighbors are satisfied, the relations are listed below. 
 2 ≤ B(P1) ≤ 6 
 A(P1) =  1 
